@@ -1,0 +1,130 @@
+/*FONTS*/
+@font-face {
+    font-family: 'Adam Pro';
+    src: url('fonts/adamwarrenpro-webfont.woff2') format('woff2'),
+         url('fonts/adamwarrenpro-webfont.woff') format('woff');
+}
+
+@font-face{
+	font-family: 'Brother Deluxe';
+    src: url('fonts/brotherdeluxe1350____2011-webfont.woff2') format('woff2'),
+         url('fonts/brotherdeluxe1350____2011-webfont.woff') format('woff');
+}
+
+/*ALL*/
+body{
+	font: 15px/1.5 'Brother Deluxe', Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #DEDECD;
+	height: 80%;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+#background-image{
+	background-image: url('../img/background4.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+/*HEADER*/
+header{
+	color: white;
+	padding-top: 20px;
+	min-height: 70px;
+	background-color: rgba(200, 215, 215, 0.25);
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+header ul{
+	list-style: none;
+	padding-left: 10px;
+}
+
+header li{
+	display: inline;
+	padding: 0 10px;
+	font-size: 12px;
+}
+
+nav{
+	float: left;
+	width: 50%;
+}
+
+#social-media{
+	float: right;
+}
+
+.social-img{
+	height: 30px;
+	margin: 0 10px;
+}
+
+/*MAIN*/
+#main{
+	min-height: 500px;
+	margin-top: 50px;
+	margin: 0 auto;
+	width: 50%;
+}
+
+#main-img{
+	margin: 0 auto;
+	min-height: 400px;
+	background: url('../img/squid2.png') no-repeat;
+	background-position: bottom;
+	background-size: inherit;
+	padding-top: 100px;
+}
+
+#main-img h1{
+	font-family: 'Adam Pro', Helvetica, sans-serif;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	font-size: 100px;
+	padding-top: 200px;
+	margin: 0;
+}
+
+#main-img p{
+	color: white;
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+}
+
+/*FOOTER*/
+footer{
+	padding: 50px;
+}
+
+footer p{
+	text-align: center;
+	color: #7B7B78;
+	width: 55%;
+	margin: 0 auto;
+	font-size: 18px;
+	line-height: 2em;
+}
+
+footer p strong{
+	font-weight: bold;
+	color: #636361;
+}

@@ -1,0 +1,127 @@
+*{
+	overflow: hidden;
+}
+
+body{
+	background-color: #f4f4f4f45;
+	color: #555;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+header{
+	padding: 0;
+	background-color: #555;
+	color: white;
+	height: 40px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+header .container{
+	height: 80%;
+	width: 100%;
+	padding: 5px;
+}
+
+.container{
+	overflow: hidden;
+	text-align: center;
+}
+
+#company-name{
+	margin: 0;
+	height: 100%;
+	width: 7%;
+	float: left;
+}
+
+#company-name h3{
+	height: 100%;
+	margin: 0;
+	font-weight: 200;
+}
+
+#navbar{
+	height: 100%;
+	float: right;
+}
+
+#navbar ul{
+	margin: 0;
+	list-style: none;
+}
+
+#navbar li{
+	padding: 0 5px;
+	display: inline;
+	font-size: 12px;
+}
+
+#navbar a{
+	color: white;
+	padding-right: 15px;
+}
+
+#main-face-img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.p-box{
+	background-color: #f0f0f0;
+	margin: auto;
+	padding: 100px 0;
+}
+
+.p-box #main-face-img{
+	display: block;
+	width: 75px;
+	height: 75px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#welcome-message{
+	text-align: center;
+}
+
+#sub-welcome-message{
+	text-align: center;
+	padding-bottom: 0;
+}
+
+#social-media{
+	padding: 0 10px;
+	padding-top: 15px;
+	margin: 0;
+}
+
+#social-media li{
+	list-style: none;
+	display: inline-block;
+	padding: 0 3px;
+}
+
+footer{
+	padding-top: 40px;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main-block{
+	float: left;
+	width: 50%;
+}
+
+#img-block{
+	float: right;
+	width: 40%;
+}
