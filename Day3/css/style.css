@@ -14,11 +14,7 @@ ul{
 }
 
 .btn{
-	display: inline-block;
 	text-decoration: none;
-	padding: 1em 2em;
-	margin: .5em 0;
-	border-radius: 10px;
 }
 
 .btn:hover{
@@ -29,15 +25,60 @@ ul{
 /*NAVBAR*/
 
 .wrapper{
-	text-align: center;
-	width: 75%;
+	width: 85%;
 	margin: auto;
+}
+
+nav {
+	text-align: center;
+}
+
+.navbar{
+	border-radius: 0;
+}
+
+.bg-opacity{
+	background-color: #343a40;
+	opacity: 0.4;
+	z-index: -1;
+}
+
+#navbarNavDropdown li .nav-link{
+	font-size: 12px;
+	padding: 0 7px;
+	letter-spacing: .1em;
+}
+
+.border-right{
+	border-right: 1px solid #333;
+}
+
+#logo{
+	text-align: center;
+}
+
+#logo img{
+	float: left;
+}
+
+#logo a{
+	font-size: 20px;
+	color: white;
+	padding-left: 10px;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.btn-search{
+	color: white;
+	border-color: white;
 }
 
 /*SHOWCASE*/
 
 #showcase{
-	height: 450px;
+	height: 550px;
 }
 
 #showcase .background{
@@ -52,26 +93,76 @@ ul{
 	opacity: .4;
 }
 
+#grey-box{
+	position: absolute;
+	background-color: #343a40;
+	opacity: 0.2;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	width: 75%;
+	margin: auto;
+	z-index: -1;
+	height: 450px;
+}
+
 #main-body{
+	height: 450px;
 	padding-top: 100px;
 	padding-bottom: 100px;
 	text-align: center;
 	color: white;
-	width: 50%;
+	width: 75%;
 	margin: auto;
 	display: grid;
 }
 
-#main-body h1,
-#main-body p{
+#main-body h1{
 	margin: auto;
+	font-size: 90px;
+	font-weight: bold;
+	letter-spacing: .05em;
+}
+
+#main-body p{
+	color: #eaeaea;
+	font-size: 20px;
+	font-weight: 100;
+	margin: auto;
+	letter-spacing: .05em;
+}
+
+#main-btn-body{
+	margin: auto;
+	padding: 10px;
+	display: inline-block;
+}
+
+.main-btn{
+	border-radius: 0;
+	color: white;
+	padding: 0;
+	vertical-align: middle;
+	margin: auto;
+	height: 50px;
+	width: 150px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.main-btn a{
+	color: white;
+	letter-spacing: .2em;
+}
+
+.main-btn a:hover{
+	color: #898989;
 }
 
 
 /*FOOTER*/
 
 footer{
-	margin-top: 30px;
+	padding-top: 50px; 
 	display: grid;
 	grid-gap: 1em;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -84,8 +175,9 @@ footer{
 }
 
 .box{
+	padding: 2em;
+	display: inline-block;
 	text-align: center;
-	padding: 1em;
 }
 
 .box h1{
@@ -94,4 +186,19 @@ footer{
 
 .box p{
 	color: #898989;
+}
+
+.box img{
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	width: 10%;
+}
+
+.footer-text{
+	padding-top: .75em;
+	width: 90%;
+	float: right;
+	display: inline-block;
+	text-align: left;
 }
