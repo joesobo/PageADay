@@ -1,0 +1,149 @@
+/*CSS Variables*/
+:root {
+	--primary: #ddd;
+	--dark: #333;
+	--light: #fff;
+	--shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+/*ALL*/
+html{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+
+/*HEADER*/
+#header #header-parallax #header-background{
+	position: absolute;
+}
+
+#header{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#header #header-parallax{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -1;
+	background-size: cover;
+	background-position: center;
+}
+
+#header-background{
+	position: absolute;
+	height: auto;
+	width: 1536px;
+	margin-top: -300px;
+	margin-left: 0px;
+}
+
+#header-text{
+	text-align: center;
+	color: white;
+	border: 2px solid white;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	margin: 0 auto;
+	height: 110px;
+	width: 506px;
+	margin-left: -250px;
+	margin-top: -55px;
+}
+
+#header-text h1{
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 25px;
+	letter-spacing: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#header-text p{
+	font-size: 13px;
+	margin-top: 20px;
+	letter-spacing: 10px;
+	color: white;
+	text-align: center;
+}
+
+#header button{
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+	left: 50%;
+	bottom: 20px;
+	margin-left: -37px;
+	position: absolute;
+	border: 2px solid white;
+	border-radius: 40px;
+	-webkit-transition: padding 0.2s, margin 0.2s;
+}
+
+/*PROJECT*/
+#project{
+	top 0px;
+	width: 100%;
+	position: relative;
+	background-color: white;
+	-webkit-backface-visibility: hidden;
+}
+
+#project-inner{
+	padding: 0 30px;
+	position: relative;
+	margin: auto;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+.project-box{
+	float: left;
+	width: 446px;
+	height: 280px;
+	margin: 20px;
+	position: relative;
+	overflow: hidden;
+}
+
+.project-box .image{
+	background-image: url("https://source.unsplash.com/random/200x200");
+	position: absolute;
+	width:100%;
+	height:100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.overlay{
+	height: 280px;
+	width: 100%;
+	position: absolute;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.title{
+	margin-top: 132px;
+	width: 100%;
+	position: absolute;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 5px;
+	text-align: center;
+	color: white;
+}
+
+/*FOOTER*/
