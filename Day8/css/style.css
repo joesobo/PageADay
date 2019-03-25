@@ -1,0 +1,112 @@
+/*ALL*/
+html{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	font-family:  Arial, Helvetica, sans-serif;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 100;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	padding: 0;
+}
+
+/*BACKGROUND*/
+#background{
+	background-image: linear-gradient(45deg, rgba(185,116,188,0.6) 0%, rgba(250, 230, 140, 0.6) 100%), url('../img/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: fixed;
+}
+
+/*LOGO*/
+.container{
+	padding-top: 100px;
+	padding-bottom: 50px;
+	width: 40%;
+	margin: 0 auto;
+}
+
+#logo{
+	color: white;
+}
+
+/*INNER*/
+
+#inner{
+	color: white;
+	margin-top: 100px;
+	margin-bottom: 75px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+#inner h1{
+	padding-top: 40px;
+	padding-bottom: 10px;
+	letter-spacing: .1em;
+}
+
+#inner p{
+	font-size: 12px;
+	letter-spacing: .3em;
+	line-height: 1.6em;
+	font-weight: 100;
+	color: rgb(255,255,255);
+	padding-bottom: 50px;
+}
+
+/*BOTTOM*/
+
+#bottom{
+	margin-bottom: 150px;
+}
+
+#bottom ul{
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	width: 65%;
+	margin: 0 auto;
+}
+
+#bottom a{
+	border: 1px solid white;
+	width: 100px;
+	margin: 0 auto;
+}
+
+#bottom a:hover{
+	background-color: rgba(255,255,255,.2);
+}
+
+#bottom li{
+	display: inline-block;
+	font-size: 12px;
+	padding: 15px;
+}
+
+/*FOOTER*/
+
+#footer{
+	font-size: 10px;
+	color: rgba(255,255,255,.75);
+	font-weight: 100;
+}
